@@ -24,4 +24,4 @@ if __name__ == "__main__":
     for x in range(100000):
         result.append(f(x))
 
-    print("Serial processing took : ",time.time()-ts2)
+    print("Serial processing took:: ",time.time()-ts2)
