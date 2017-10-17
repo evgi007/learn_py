@@ -18,7 +18,7 @@ if __name__ == "__main__":
     p.close()
     p.join()
 
-    print("Pool took--- ", time.time()-ts1)
+    print("Pool took, ahooo ", time.time()-ts1)
 
     ts2 = time.time()
     for x in range(100000):
