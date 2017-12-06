@@ -11,13 +11,13 @@ def Main():
     c, addr = s.accept()
     print("Connection from client: " + str(addr))
     while True:
-        data = c.recv(1024)
+        data = c.recv(1024).decode('utf-8')
         if not data:
             break
         print("From connected user: " + data)
         data = data.upper()
         print("Sending: " + data)
-        c.send(data)
+        c.send(data.encode('utf-8'))
     c.close()
 
 if __name__ =='__main__':
