@@ -14,7 +14,7 @@ import re
 # re.M = Multiline
 # print(re.split(r"[a-fA-F0-9p-q]","cgwgcoiwegcoqegJHPJHPHnkkl",re.IGNORECASE | re.MULTILINE))
 
-# [a-f][a-f] combination of characters (exmple "cd"
+# [a-f][a-f] combination of characters (example "cd"
 #print(re.split(r"[a-f][a-f]","cgwgcoiwegcoqegcdJHPJHPHnkkl",re.IGNORECASE | re.MULTILINE))
 
 # Addresses:
@@ -25,6 +25,7 @@ import re
 # "\s" = space
 # "\w" = alphanumeric
 # "\." = "."
+# "." = anythingS
 # "*" = 0 or more
 # "+" = 1 or more
 # "?" = 0 or 1 of ....
