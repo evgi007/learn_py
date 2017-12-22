@@ -4,7 +4,7 @@ def add (x, y):
     "Add Function"
     return x + y
 
-def substruct (x, y):
+def subtract (x, y):
     "substruct Function"
     return x - y
 
